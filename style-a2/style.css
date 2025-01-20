@@ -1,0 +1,56 @@
+.navber {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.school{
+  display: flex;
+  text-align: center;
+  font-family: "Quicksand", serif;
+  gap: 10px;
+}
+.list-item{
+  display: flex;
+  gap: 32px;
+   
+}
+#link-item{
+  text-decoration: none;
+
+}
+.link{
+  list-style: none;
+}
+.link{
+  font-weight: 700;
+  font-size: 20px;
+}
+.home{
+  color: #FEA301;
+}
+.about{
+  color: #01ACFD;
+}
+.Facilities{
+  color: #05D4DF;
+}
+.Admission{
+  color: #5D58EF;
+}
+.Contact{
+  width: 197px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #FEA301;
+  color: #fff;
+  border: none;
+}
+
+@media screen and (max-width:576px) {
+  .navber{
+    flex-direction: column;
+      visibility: initial;
+  }  
+}
