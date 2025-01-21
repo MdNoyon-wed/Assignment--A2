@@ -1,3 +1,4 @@
+
 .navber {
   display: flex;
   justify-content: space-around;
@@ -94,6 +95,95 @@
    
 }
 
+   /* main section */
+
+.Curriculum{
+  width: 1590px;
+  height: 980px;
+  margin: 0px auto;
+  background-image: url(../B11-A2-Kids-School/assets/bg.png);
+  border: 2px solid black;
+  border: none;
+  margin-top: -30px;
+}
+
+.box{
+  display: flex;
+}
+
+.Standard{
+  text-align: center;
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 2.6rem;
+  font-family: "Quicksand", serif;
+
+}
+
+.box-1,.box-2,.box-3{
+  width: 367px;
+  height: 476px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  border: none;
+  margin: 20px;
+  margin-top: 80px;
+}
+.box-1{
+  margin-left: 180px;
+}
+
+.kinder,.middle,.elementary{
+  padding-left: 117px ;
+  padding-top: 52px;
+}
+
+.Name{
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Quicksand", serif;
+
+}
+
+.sdis{
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  color: #808080;
+}
+
+.More,.More-1,.More-2{
+  font-weight: 700;
+  font-size: 15px;
+  padding-left: 145px;
+  padding-top: 50px;
+  
+}
+
+.More{
+  color: #64C8FF;
+}
+.More-1{
+  color: #F0AA00;
+}
+.More-2{
+  color: #8700FF;
+}
+
+.icon{
+  width: 20px;
+  
+ 
+   
+}
+.box.icon{
+  justify-items: center;
+   
+ 
+ 
+}
+
 @media screen and (max-width:576px) {
   .navber{
     flex-direction: column;
@@ -105,7 +195,20 @@
   .banner,.imags{
     flex-direction: column;
     flex-direction: column-reverse;
-   padding-top: 400px;
+    padding-top: 400px;
   }
  
+}
+@media screen  and (max-width:576px){
+  .Curriculum,.box{
+    flex-direction: column;
+    text-align: center;
+  }
+  .Standard{
+     text-align: center;
+     margin-right: 1000px;
+    
+  }
+  
+  
 }
