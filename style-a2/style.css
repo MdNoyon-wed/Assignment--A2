@@ -198,28 +198,6 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
   background-image: url(../B11-A2-Kids-School/assets/bg.png);
   margin: 80px auto;
 }
-
-.style-1{
-  width: 540px;
-  height: 630px;
-   
-}
-
-.style-2,.style-3,.style-4,.style-5{
-  width: 290px;
-  height: 300px;
-  
-}
-
- .imags-part{
-  display: flex;
- 
- }
- #main-imags{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
- }
-  
   
  
  
