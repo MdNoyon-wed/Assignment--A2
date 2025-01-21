@@ -173,15 +173,10 @@
 
 .icon{
   width: 20px;
-  
- 
    
 }
 .box.icon{
   justify-items: center;
-   
- 
- 
 }
 
 .Our-Stories{
@@ -190,31 +185,8 @@
   border: 2px solid black;
  background-image: url(../B11-A2-Kids-School/assets/bg.png);
   margin: 80px auto;
-
 }
-
-.big-img,.big-img-2{
-  width: 640px;
-  height: 630px;
-  margin: 20px;
-  border: 2px solid black;
-}
-.story-img,.big-img-2{
-  display: flex;
-}
-
-.big-img{
-  margin-left: 200px;
-}
-
-.story-2,.story-3{
-  width: 290px;
-  height: 300px;
-  
-  border: 2px solid black;
-  grid-template-columns: repeat(4,1fr);
-}
-
+ 
 @media screen and (max-width:576px) {
   .navber{
     flex-direction: column;
