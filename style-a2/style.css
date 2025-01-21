@@ -103,7 +103,7 @@
   margin: 0px auto;
   background-image: url(../B11-A2-Kids-School/assets/bg.png);
   border: 2px solid black;
-  /* border: none; */
+  border: none; 
   margin-top: -30px;
 }
 
@@ -125,7 +125,7 @@
   height: 476px;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
-   border: none;
+  border: none;
   margin: 20px;
   margin-top: 80px;
 }
@@ -184,11 +184,9 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
 }
 
 .icon{
-  width: 20px;
+   align-items: center;
+   text-align: center;
    
-}
-.box.icon{
-  justify-items: center;
 }
 
 .Our-Stories{
@@ -198,9 +196,48 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
   background-image: url(../B11-A2-Kids-School/assets/bg.png);
   margin: 80px auto;
 }
+
+.contener{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: start;
   
+}
+
+.contener-1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+/* footer part */
+
+.footer{
+ width: 1880px;
+ height: 320px;
+ display: flex;
+ padding-top: 100px;
+ justify-content: space-around;
+ border: 2px solid black;
+ border: none;
+ border-radius: 6px;
+ background-color: #01ACFD;
+}
+
+.style{
+  list-style: none;
+  
+}
+.about-{
+  color: #fff;
+}
+
+ul li a{
+  color: #fff;
  
+}
  
+
 @media screen and (max-width:576px) {
   .navber{
     flex-direction: column;
@@ -220,12 +257,26 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
   .Curriculum,.box{
     flex-direction: column;
     text-align: center;
+     
   }
   .Standard{
      text-align: center;
      margin-right: 1000px;
     
   }
+  .Curriculum{
+    width: 100%;
+    height: 100%;
+  }
   
+}
+
+@media screen and (max-width:576px) {
+  .footer{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
   
 }
