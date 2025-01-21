@@ -183,9 +183,33 @@
   width: 1550px;
   height: 1017px;
   border: 2px solid black;
- background-image: url(../B11-A2-Kids-School/assets/bg.png);
+  background-image: url(../B11-A2-Kids-School/assets/bg.png);
   margin: 80px auto;
 }
+
+.style-1{
+  width: 540px;
+  height: 630px;
+  border: 2px solid black;
+}
+
+.style-2,.style-3,.style-4,.style-5{
+  width: 290px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+ .imags-part{
+  display: flex;
+  text-align: center;
+ }
+ #main-imags{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ }
+  
+  
+ 
  
 @media screen and (max-width:576px) {
   .navber{
