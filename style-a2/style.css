@@ -191,7 +191,7 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
 
 .Our-Stories{
   width: 1550px;
-  height: 1017px; 
+  height: 817px; 
   border: 2px solid black;
   background-image: url(../B11-A2-Kids-School/assets/bg.png);
   border: none;
@@ -211,7 +211,7 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
 
 .contener{
   position: relative;
-  margin-top: 190px;
+  /* margin-top: 190px; */
   margin-left: 180px;
   width: 540px;
   height: 630px;
@@ -252,7 +252,7 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
 .contener-1{
   width: 600px;
   height: 620px;
-  margin-top: 190px;
+  /* margin-top: 190px; */
   margin-left: 20px;
   background-color: #ffffff;
   border: 2px solid black;
@@ -345,6 +345,7 @@ ul li a{
 @media screen and (max-width:576px) {
   .navber{
     flex-direction: column;
+    /* align-items: center; */
     
   } 
   .none{
@@ -367,13 +368,22 @@ ul li a{
 @media screen  and (max-width:576px){
   .Curriculum,.box{
     flex-direction: column;
-    text-align: center;
+   
      
   }
+  .box-1{
+      margin-left: 20px; 
+
+  }
+
   .Standard{
      text-align: center;
-     margin-right: 1000px;
+      /* margin-right: 1000px;  */
     
+  }
+  .box-2,.box-3{
+    margin-top: -50PX;
+
   }
   .Curriculum{
     width: 80%;
@@ -385,9 +395,15 @@ ul li a{
 @media screen and (max-width:576px) {
   .footer{
     flex-direction: column;
-    align-items: center;
-    width: 80%;
+    text-align: center;
+    width: 100%;
     height: 100%;
+    margin-top: -2000px;
+   
+
+  }
+  .filx{
+   justify-content: center;
   }
   
 }
@@ -396,11 +412,19 @@ ul li a{
   .Our-Stories{
     flex-direction: column;
     align-items: center;
-    margin-bottom: 500px;
+    margin-bottom: 1900px;
     width: 80%;
+
   }
   .contener{
-    visibility: hidden;
+    display: none;
+  }
+  .contener-1{
+    display: grid;
+     grid-template-columns: repeat(2,1fr);
+     align-items: center;
   }
   
 }
+
+ 
