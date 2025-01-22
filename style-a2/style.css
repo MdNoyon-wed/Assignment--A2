@@ -191,24 +191,125 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
 
 .Our-Stories{
   width: 1550px;
-  height: 1017px;
+  height: 1017px; 
   border: 2px solid black;
   background-image: url(../B11-A2-Kids-School/assets/bg.png);
+  border: none;
   margin: 80px auto;
 }
 
-.contener{
+ .Our-Stories{
   display: flex;
-  grid-template-columns: repeat(3,2fr);
-  align-items: start;
-  columns: 50px 4;
-  
-}
+   background-image: linear-gradient(rgba(254, 161, 1, 0.499) rgba(255, 255, 255, 0.3));
+} 
 
 .contener-1{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   
+}
+
+.contener{
+  position: relative;
+  margin-top: 190px;
+  margin-left: 180px;
+  width: 540px;
+  height: 630px;
+  background-color: #fff;
+  border: 2px solid black;
+  border: none;
+   
+}
+
+.button-1{
+  width: 174px;
+  height: 46px;
+  border-radius: 30px;
+  margin-top: -50px;
+  margin-left: 37px;
+  border: none;
+  background-color: #3CD8E8;
+  color: #ffffff;
+}
+
+.classroom{
+  margin-left: 37px;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Quicksand", serif;
+  
+}
+
+.Beautiful{
+  margin-left: 37px;
+  margin-top: 40px;
+  color: #666666;
+  font-weight: 300;
+  font-size: 15px;
+
+
+}
+
+.contener-1{
+  width: 600px;
+  height: 620px;
+  margin-top: 190px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  border: none; 
+}
+
+.story-2,.story-4,.story-5{
+  width: 290px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  border: none; 
+ 
+}
+.button{
+  width: 174px;
+  height: 38px;
+  border-radius: 20px;
+  margin-left: 37px;
+  margin-top: -50px;
+  border: none;
+  background-color: #95B226;
+  color: #ffffff;
+}
+
+.story-3{
+  width: 290px;
+  height: 300px;
+  border: 2px solid black;
+  border: none;
+  border-radius: 10px;
+
+
+}
+.November{
+  width: 174px;
+  height: 38px;
+  border-radius: 20px;
+  background-color: #5D58F0;
+  color: #ffffff;
+  margin-top: -50px;
+  margin-left: 37px;
+  border: none;
+
+}
+ 
+.fits{
+  margin-left: 37px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.img-4{
+  border: 2px solid red;
+  border-radius: 15px;
+  border: none;
 }
 
 
@@ -267,7 +368,7 @@ ul li a{
     
   }
   .Curriculum{
-    width: 100%;
+    width: 80%;
     height: 100%;
   }
   
@@ -277,8 +378,21 @@ ul li a{
   .footer{
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: 100%;
+  }
+  
+}
+
+@media screen and (max-width:576px) {
+  .Our-Stories{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 500px;
+    width: 80%;
+  }
+  .contener{
+    visibility: hidden;
   }
   
 }
