@@ -107,7 +107,7 @@
   width: 1590px;
   height: 980px;
   margin: 0px auto;
-  background-image: url(../B11-A2-Kids-School/assets/bg.png);
+  background-image: url(.././assets/bg.png);
   border: 2px solid black;
   border: none; 
   margin-top: -30px;
@@ -199,7 +199,7 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
   width: 1550px;
   height: 817px; 
   border: 2px solid black;
-  background-image: url(../B11-A2-Kids-School/assets/bg.png);
+  background-image: url(.././assets/bg.png);
   border: none;
   margin: 80px auto;
 }
@@ -351,20 +351,27 @@ ul li a{
 @media screen and (max-width:576px) {
   .navber{
     flex-direction: column;
+    width: 380px;
     /* align-items: center; */
     
   } 
   .none{
     display: none;
   }
-  .school,.logo-img{
-       /* margin-left: auto; */
+  /* .assets{
+    display: flex;
+    justify-content: space-between; 
+  } */
       
+  
   }
  
-}
+
 
 @media screen and (max-width:576px) {
+  .banner{
+    width: 380px;
+  }
   .banner,.imags{
     flex-direction: column;
     flex-direction: column-reverse;
@@ -393,7 +400,7 @@ ul li a{
 
   }
   .Curriculum{
-    width: 80%;
+    width: 380px;
     height: 100%;
   }
   
@@ -403,11 +410,10 @@ ul li a{
   .footer{
     flex-direction: column;
     text-align: center;
-    width: 100%;
-    height: 100%;
+     width: 380px;
+     height: 100%;
     margin-top: -2000px;
    
-
   }
   .filx{
    justify-content: center;
@@ -420,7 +426,7 @@ ul li a{
     flex-direction: column;
     align-items: center;
     margin-bottom: 1900px;
-    width: 80%;
+    width: 380px;
 
   }
   .contener{
