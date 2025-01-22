@@ -200,7 +200,7 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
 
  .Our-Stories{
   display: flex;
-   background-image: linear-gradient(rgba(254, 161, 1, 0.499) rgba(255, 255, 255, 0.3));
+   background-image: linear-gradient();
 } 
 
 .contener-1{
@@ -222,10 +222,9 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
 }
 
 .button-1{
-  width: 174px;
-  height: 46px;
+  padding: 15px 20px;
   border-radius: 30px;
-  margin-top: -50px;
+   margin-top: -50px;
   margin-left: 37px;
   border: none;
   background-color: #3CD8E8;
@@ -269,12 +268,11 @@ background-image: linear-gradient(#FFF4DC,#ffffff);
  
 }
 .button{
-  width: 174px;
-  height: 38px;
+  padding: 10px 20px;
   border-radius: 20px;
   margin-left: 37px;
   margin-top: -50px;
-  border: none;
+  border: none; 
   background-color: #95B226;
   color: #ffffff;
 }
@@ -339,12 +337,22 @@ ul li a{
   color: #fff;
  
 }
+.filx{
+  display: flex;
+}
  
 
 @media screen and (max-width:576px) {
   .navber{
     flex-direction: column;
+    
   } 
+  .none{
+    display: none;
+  }
+  .school{
+    
+  }
  
 }
 
