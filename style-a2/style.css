@@ -10,6 +10,11 @@
   font-family: "Quicksand", serif;
   gap: 10px;
 }
+.school{
+  /* position: absolute; */
+  width: 30px;
+  
+}
 .list-item{
   display: flex;
   gap: 32px;
@@ -77,6 +82,7 @@
   margin-top: -24px;
   font-family: "Quicksand", serif;
 }
+ 
 .Empowering{
   color: #FEA301;
 }
@@ -340,7 +346,7 @@ ul li a{
 .filx{
   display: flex;
 }
- 
+
 
 @media screen and (max-width:576px) {
   .navber{
@@ -351,8 +357,9 @@ ul li a{
   .none{
     display: none;
   }
-  .school{
-    
+  .school,.logo-img{
+       /* margin-left: auto; */
+      
   }
  
 }
@@ -421,7 +428,7 @@ ul li a{
   }
   .contener-1{
     display: grid;
-     grid-template-columns: repeat(2,1fr);
+     /* grid-template-columns: repeat(2,1fr); */
      align-items: center;
   }
   
